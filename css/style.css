@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120vh;
+  padding: 2em;
+  margin: 1.5em auto;
+  background-color: white;
+  max-width: 120vh;
+  border-radius: 5px;
+  box-shadow: 0 0 50px black;
+  background: url(../images/pexels-mikhail-nilov-6932915.jpg);
+  background-size: 120vh, contain;
+}
+.todo-items {
+    min-width: 70vh;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
