@@ -8,13 +8,36 @@
     <title>Todo List</title>
   </head>
   <body>
-    <div class="todo-container">
-      <h1>Get the Goals!</h1>
-      <div class="todo-items">
-        
+    <div id="todo-container">
+      <div class="trans-box">
+        <header class="trans-box-head">
+          <h2>Tasks</h2>
+          <button onclick="newElement()" class="addbtn">Add</button>
+        </header>
+        <div class="trans-box-cta">
+          <ul class="trans-box-items">
+            <li class="todo-items">
+              <label for="item-one">
+                <input type="checkbox" name="" id="item-one" id="" />
+                <span>Pray</span>
+              </label>
+              <label for="item-two">
+                <input type="checkbox" name="" id="item-one" id="" />
+                <span>Read</span>
+              </label>
+              <label for="item-three">
+                <input type="checkbox" name="" id="item-one" id="" />
+                <span>Coffee</span>
+              </label>
+              <label for="item-four">
+                <input type="checkbox" name="" id="item-one" id="" />
+                <span>Shower</span>
+              </label>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-
     <script src="js/script.js"></script>
   </body>
 </html>

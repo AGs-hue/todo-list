@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-.todo-container {
+#todo-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   min-height: 120vh;
   padding: 2em;
   margin: 1.5em auto;
@@ -18,10 +18,32 @@
   background: url(../images/pexels-mikhail-nilov-6932915.jpg);
   background-size: 120vh, contain;
 }
+.trans-box {
+  margin: 30px;
+  max-width: 100vh;
+  display: flex;
+  padding: 15em;
+  background-color: #ffffff;
+  /* border: 1px solid black; */
+  opacity: 0.6;
+}
+header trans-box-head {
+  display: flex;
+}
+/* .trans-box header {
+  margin-bottom: 12px;
+} */
+
+.trans-box-items {
+  display: block;
+  list-style: none;
+}
 .todo-items {
-    min-width: 70vh;
-    min-height: 70vh;
-    display: flex;
-    justify-content: center;
-    background-color: whitesmoke;
+  display: block;
+  padding: 0.3em;
+  list-style: none;
+  background: #fff;
+}
+.todo-items input:checked ~ span {
+  text-decoration: line-through;
 }
